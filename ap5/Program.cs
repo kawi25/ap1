@@ -19,10 +19,17 @@ namespace ap5
                 }
                 else if (num >= 10)
                 {
-                    Console.WriteLine("tiene dos digitos.");
+                    Console.WriteLine("tiene 2 digitos.");
                 }
-                while (num != 0) ;
+                else
+                {
+                    Console.WriteLine("tiene 1 digito.");
+
+                      while (num != 0) ;
+                }
+        
+    
             }
-        }
+        }  
     }
 }
