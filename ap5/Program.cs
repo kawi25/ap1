@@ -23,13 +23,14 @@ namespace ap5
                 }
                 else
                 {
-                    Console.WriteLine("tiene 1 digito.");
+                    Console.WriteLine("tiene 1 digito.")
+                 }
 
-                      while (num != 0) ;
-                }
+                while (num != 0) ;
+                
         
     
             }
-        }  
+        }   
     }
 }
